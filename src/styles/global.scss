@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$background-color: rgb(39, 39, 39);
+$text-color: rgb(237, 237, 237);
+
+body {
+  font-family: sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
