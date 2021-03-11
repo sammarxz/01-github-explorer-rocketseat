@@ -1,0 +1,33 @@
+$subtext-color: #9f9ea5;
+$accent-color: #e068af;
+
+section.repositories-list {
+  margin: 48px;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      & + li {
+        margin-top: 24px;
+      }
+
+      p {
+        font-size: 14px;
+        color: $subtext-color;
+        margin-top: 8px;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 16px;
+        text-decoration: none;
+        color: $accent-color;
+      }
+    }
+  }
+}
